@@ -1,0 +1,29 @@
+body{
+    /* max-width: 95%; */
+    margin: auto;
+    background-color: white;
+    font-family: "Rubik", sans-serif;
+}
+
+.our_service{
+    background: linear-gradient(to right, rgb(25, 25, 214), rgb(230, 48, 230));
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    border-radius: 5px;
+    margin: 5% 20% 2% 24%;  
+    transition: transform 0.5s ease-out; 
+    padding: 5px 0px;
+    cursor: pointer;
+}
+
+.for_crousal_img>img{
+    width: auto;
+    height: 700px;
+    border-radius: 20px;
+}
+.for_crousal_h1>h1{
+    text-align: center;
+    color: blue; 
+}

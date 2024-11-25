@@ -1,0 +1,130 @@
+/* .image-slider img {
+    width: 100%;
+    height: auto;
+}
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+} */
+
+.shadow{
+    /* max-width: 100%;
+    box-shadow: 0px 0px 5px 0px grey; */
+    background-color: white;
+}
+.bg{
+    max-width: 93%;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+.nokia-img>img{
+    width: 100px;
+    /* padding-left: 60px; */
+    margin: 2% 2%;
+    border-radius: 30px 30px;
+}
+
+
+
+
+.media{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0% 0% 2% 0%;
+    
+}
+.media>.insta>a>img{
+    height: 50px;
+    width: 48px;    
+}
+.insta{
+    margin-right: 0.7%;
+}
+.media>.youtube>a>img{
+    height: 43px;
+    width: 42px;
+    
+}
+.youtube{
+    margin-right: 1%;
+    margin-top: 3px;
+}
+.media>.x>a>img{
+    height: 45px;
+    width: 43px;
+}
+.x{
+    margin-right: 1%;
+    margin-top: 1.5px;
+}
+.media>.facebook>a>img{
+    height: 47px;
+    width: 44px;
+}
+.facebook{
+    margin-right: 1%;
+}
+.media>.in>a>img{
+    height: 48px;
+    width: 44px;
+}
+.in{
+    margin-right: 1%;
+}
+
+.copyrights{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.copy{
+    color: rgb(112, 111, 111);
+    font-family: NokiaPureHeadline, Arial, Helvetica, sans-serif;
+    font-size:85%;
+}
+
+/* .cookies{
+    display: flex;
+    flex-wrap: wrap;
+    
+} */
+
+
+.address_bar{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 0% 0% 0%;
+}
+.address_bar>.logo>img{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+.address_bar>.address>p{
+    max-width: 280px;
+    margin: auto;
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(23, 22, 22);
+}
+
+
+.mail_div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.mail_div>.mail>img{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+.mail_div>.mail_id>a{
+    text-decoration: none;
+    color: rgb(255, 8, 210);
+    font-size: 20px;
+}
